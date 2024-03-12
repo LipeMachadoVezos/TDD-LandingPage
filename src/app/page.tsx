@@ -7,7 +7,7 @@ export default function Home() {
         <div className="max-w-[38%] text-[#F1A632]">
           <h1 className="font-semibold text-[40px] mb-10">
             Faça com que seus professores e educadores públicos alcancem um nível
-            de motivação e desempenho jamais atingido.Testando pelo git
+            de motivação e desempenho jamais atingido.
           </h1>
           <div className="flex flex-col gap-4">
             <h2 className="text-white text-2xl">Confira um trecho do nosso material.</h2>
