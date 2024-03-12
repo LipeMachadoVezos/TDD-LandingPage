@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="flex justify-center items-center w-full h-screen bg-header gap-10">
-        <div className="max-w-[38%] text-[#F1A632]">
-          <h1 className="font-semibold text-[40px] mb-10">
+      <header className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-header bg-cover bg-center gap-10 pt-20 xl:pt-0">
+        <div className="w-[80%] lg:w-[50%] xl:max-w-[38%] text-[#F1A632]">
+          <h1 className="font-semibold text-[25px] md:text-[40px] mb-10">
             Faça com que seus professores e educadores públicos alcancem um nível
             de motivação e desempenho jamais atingido.
           </h1>
