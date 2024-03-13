@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "header": "url('/backgrounds/header.png')",
+        "aboutus": "url('/backgrounds/aboutus.png')",
       },
     },
   },
