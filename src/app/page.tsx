@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,11 @@ export default function Home() {
             <h2 className="text-white text-2xl">Confira um trecho do nosso material.</h2>
             <input className="py-3 px-2 rounded focus:outline-none focus:ring-2 ring-[#F1A632] ring-inset text-black" type="text" placeholder="Seu nome:" />
             <input className="py-3 px-2 rounded focus:outline-none focus:ring-2 ring-[#F1A632] ring-inset text-black" type="email" placeholder="Seu melhor e-mail:" />
-            <button className="bg-[#F1A632] hover:bg-[#F1A632]/80 text-white py-3 rounded">Fazer download gratuitamente</button>
+            <a
+              className="bg-[#F1A632] hover:bg-[#F1A632]/80 text-white py-3 rounded"
+            >
+              Fazer download gratuitamente
+            </a>
           </div>
         </div>
         <div>
@@ -39,9 +44,13 @@ export default function Home() {
               responsáveis pela educação que muda o futuro de crianças, adolescentes, jovens, adultos
               e idosos na sua região.
             </h2>
-            <button className="bg-[#F1A632] hover:bg-[#F1A632]/80 text-white py-3 rounded mt-4">
+            <Link
+              href="https://loja.vivereditora.com.br/produto/trilha-de-desenvolvimento-docente/"
+              target="_blank"
+              className="bg-[#F1A632] hover:bg-[#F1A632]/80 text-center text-white py-3 rounded mt-4"
+            >
               Estou pronto para ver essa mudança!
-            </button>
+            </Link>
           </div>
         </div>
       </section>
