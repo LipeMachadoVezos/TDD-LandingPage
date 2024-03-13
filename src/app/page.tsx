@@ -1,10 +1,11 @@
+import { Card } from "@/components/Card";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <header className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-header bg-cover bg-center gap-20 py-20 xl:pt-0">
+      <header className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-header bg-cover bg-center gap-20 py-20 xl:py-0">
         <div className="w-[80%] lg:w-[50%] xl:max-w-[38%] text-[#F1A632]">
           <h1 className="font-semibold text-[25px] md:text-[40px] mb-10">
             Faça com que seus professores e educadores públicos alcancem um nível
@@ -25,7 +26,7 @@ export default function Home() {
           <Image className="w-72 sm:w-auto" src="/imageHeader.png" width={600} height={0} alt="" loading="lazy" />
         </div>
       </header>
-      <section className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-aboutus bg-cover bg-center gap-20 py-20 xl:pt-0">
+      <section className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-aboutus bg-cover bg-center gap-20 py-20 xl:py-0">
         <div>
           <Image className="w-72 sm:w-auto" src="/imageAboutus.png" width={600} height={0} alt="" />
         </div>
@@ -53,6 +54,19 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+      <section className="flex-col flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-features bg-cover bg-center gap-20 px-4 py-20 xl:py-0">
+        <div>
+          <h1 className="font-semibold text-[25px] md:text-[40px] mb-10 text-white text-center sm:text-start">
+            A TDD está organizada em 3 áreas do desenvolvimento
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-14 xl:gap-5">
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <div></div>
       </section>
     </>
   );
