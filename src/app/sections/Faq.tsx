@@ -5,7 +5,7 @@ import { faqData } from "../data/faq";
 export function Faq() {
     return (
         <>
-            <section className="flex-col flex justify-center items-center w-full h-full backdrop-blur-md bg-faq bg-cover gap-8 px-4 py-16">
+            <section className="flex-col flex justify-center items-center w-full h-full backdrop-blur-md bg-faq bg-cover gap-8 px-4 pt-16 pb-60 xl:pb-16">
                 <div>
                     <h1 className="font-semibold text-[25px] md:text-[40px] mb-10 mt-0 md:mt-32 text-white text-center sm:text-start">
                         Perguntas frequentes
