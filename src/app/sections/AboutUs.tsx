@@ -6,7 +6,7 @@ export function AboutUs() {
         <>
             <section className="flex-col xl:flex-row flex justify-center items-center w-full h-full xl:h-screen backdrop-blur-md bg-aboutus bg-cover bg-center gap-20 py-20 xl:py-0">
                 <div>
-                    <Image className="w-72 sm:w-auto" src="/imageAboutus.png" width={600} height={0} alt="" />
+                    <Image className="w-72 sm:w-auto" src="/ImageAboutus.png" width={600} height={0} alt="" />
                 </div>
                 <div className="w-[80%] lg:w-[50%] xl:max-w-[38%] text-[#F1A632]">
                     <h1 className="font-semibold text-[25px] md:text-[40px] mb-10">
