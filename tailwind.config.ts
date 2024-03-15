@@ -13,6 +13,7 @@ const config: Config = {
         "aboutus": "url('/backgrounds/aboutus.png')",
         "features": "url('/backgrounds/features.png')",
         "team": "url('/backgrounds/team.png')",
+        "faq": "url('/backgrounds/faq.png')",
       },
       boxShadow: {
         '3xl': '10px 3px 30px -10px rgba(0, 0, 0)',
