@@ -23,7 +23,7 @@ export function Header() {
                     </div>
                 </div>
                 <div>
-                    <Image className="w-72 sm:w-auto" src="/ImageHeader.png" width={600} height={0} alt="" loading="lazy" />
+                    <Image className="w-72 sm:w-auto" src="/ImageHeader.png" width={600} height={0} alt="" />
                 </div>
             </header>
         </>
