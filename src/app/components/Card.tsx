@@ -5,9 +5,11 @@ import { motion } from "framer-motion"
 
 interface CardProps {
     icon: string;
+    title: string;
+    text: string;
 }
 
-export function Card({ icon }: CardProps) {
+export function Card({ icon, title, text }: CardProps) {
     return (
         <>
             <motion.div
@@ -22,16 +24,12 @@ export function Card({ icon }: CardProps) {
                 />
                 <div>
                     <h2 className="font-bold text-lg xl:text-xl">
-                        Desenvolvimento Pessoal
+                        {title}
                     </h2>
                 </div>
                 <div>
                     <p>
-                        O profissional irá refletir sobre o conhecimento que tem de si,
-                        a rever propósitos e a pensar sobre perdas e desafios ao longo
-                        da vida. Nesse caminho para dentro de si mesmo, é trabalhado o
-                        conceito de felicidade e a responsabilidade individual de criar
-                        meios para alcançá-la.
+                        {text}
                     </p>
                 </div>
             </motion.div>

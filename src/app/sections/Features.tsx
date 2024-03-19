@@ -21,12 +21,29 @@ export function Features() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-14 xl:gap-5">
                     <Card
                         icon="/IconDesenvolvimentoPessoal.png"
+                        title="Desenvolvimento Pessoal"
+                        text="O profissional irá refletir sobre o conhecimento que tem de si,
+                        a rever propósitos e a pensar sobre perdas e desafios ao longo
+                        da vida. Nesse caminho para dentro de si mesmo, é trabalhado o
+                        conceito de felicidade e a responsabilidade individual de criar
+                        meios para alcançá-la."
                     />
                     <Card
                         icon="/IconDesenvolvimentoProfissional.png"
+                        title="Desenvolvimento Profissional"
+                        text="Na segunda etapa, o servidor vai aprender métodos comprovadamente
+                         eficazes de gestão de tempo, rotina e projetos. São técnicas sistemáticas
+                          que o guiarão rumo a uma produtividade real no dia a dia, equilibrada
+                           com as outras demandas da vida."
                     />
                     <Card
                         icon="/IconDesenvolvimentoPedagogico.png"
+                        title="Desenvolvimento Pedagógico"
+                        text="Na última fase, o profissional entra em contato com inovações
+                         tecnológicas e novos métodos de ensino adequados à realidade da educação
+                          no Brasil. Com os exercícios de autoavaliação, ele poderá reavaliar a
+                           própria forma de atuar,e assim contribuir para o desenvolvimento
+                            de sua comunidade."
                     />
                 </div>
                 <Button
