@@ -16,7 +16,7 @@ export const faqData = [
         description: 'Há tutores on-line disponíveis e que respondem dúvidas em até 24 horas!',
     },
     {
-        title: 'Precisa ter curso superior para fazer o Next?',
+        title: 'Precisa ter curso superior para fazer o TDD?',
         description: 'Não é necessário que o servidor tenha ensino superior completo para realizar esse curso.',
     },
     {
