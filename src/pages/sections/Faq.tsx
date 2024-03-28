@@ -1,8 +1,8 @@
 "use client"
 
-import { Articles } from "../components/Articles";
-import { Button } from "../components/Button";
-import { faqData } from "../data/faq";
+import { Articles } from "@/components/Articles";
+import { Button } from "@/components/Button";
+import { faqData } from "@/data/faq";
 import { motion } from "framer-motion"
 
 export function Faq() {

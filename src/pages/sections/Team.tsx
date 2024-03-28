@@ -1,6 +1,6 @@
 "use client"
 
-import { CardTeam } from "../components/CardTeam";
+import { CardTeam } from "@/components/CardTeam";
 import { motion } from "framer-motion"
 
 export function Team() {

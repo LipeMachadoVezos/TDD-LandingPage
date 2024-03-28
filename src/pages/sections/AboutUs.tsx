@@ -1,8 +1,8 @@
 "use client"
 
-import { Button } from "../components/Button";
 import Image from "next/image";
 import { motion } from "framer-motion"
+import { Button } from "@/components/Button";
 
 export function AboutUs() {
     return (

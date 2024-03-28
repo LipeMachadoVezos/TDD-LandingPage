@@ -18,6 +18,12 @@ const config: Config = {
       },
       boxShadow: {
         '3xl': '10px 3px 30px -10px rgba(0, 0, 0)',
+      },
+      colors: {
+        "yellow": "#F5AA25",
+        "yellow-opacity": "#E0A336",
+        "red": "#EC6061",
+        "red-opacity": "#EC7879"
       }
     },
   },
